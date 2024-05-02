@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Juego de adivina palabra</title>
+  </head>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <body onload="jugar()">
+    <section>
+      <article id="pantallaJuego">
+        <h2 id="saludo2">A jugar Juan</h2>
+        <p>Cantidad de letras</p>
+        <select
+          class="inputDec"
+          id="selector"
+          onchange="crearTablero(this.value);"
+        >
+          <option value="0">Elija una cantidad de letras</option>
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+        <div id="divjuego">
+          <h2>Palabra adivinar</h2>
+        </div>
+        <p>Letras adivinadas:</p>
+        <p>Letras Pistas:</p>
+
+        <input
+          class="inputDec"
+          type="text"
+          id="letraInput"
+          placeholder="Ingresa una letra"
+          onchange="adivinarPalabra();"
+        />
+        <button class="boton" id="botonJugar" onclick="jugar()">Jugar</button>
+        <a class="boton" href="ventanafinal.html">Abandonar</a>
+      </article>
+    </section>
+    <footer>Primer Parcial Laboratorio 2024</footer>
+  </body>
+</html>

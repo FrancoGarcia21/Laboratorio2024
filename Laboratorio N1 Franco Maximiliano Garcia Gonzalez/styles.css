@@ -1,0 +1,67 @@
+table {
+  border: 4px rgb(79, 49, 49) solid;
+  background-color: #2a48a4;
+  color: white;
+}
+
+td {
+  padding: 20px;
+  border: 2px rgb(147, 65, 255) solid;
+  background-color: #2a48a4;
+  color: white;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+body section {
+  display: flex; /*Aca tenia el flex para que se*/
+  justify-content: center;
+  align-items: center;
+}
+
+#inicio {
+  background-color: bisque;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#pantallaJuego {
+  border: 3px black solid;
+}
+#divJuego {
+  border: 3px black solid;
+}
+
+.boton {
+  display: inline-block;
+  padding: 8px 10px;
+  background-color: #2a48a4;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #45a049;
+}
+
+.inputDec {
+  display: inline-block;
+  padding: 8px 10px;
+  background-color: #2a48a4;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
