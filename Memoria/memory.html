@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="memory.css" />
+    <script src="memory.js"></script>
+    <title>Memory</title>
+  </head>
+  <body onload="createTable();">
+    <header>
+      <center><h1>Juego de Memoria</h1></center>
+    </header>
+    <main>
+      <section>
+        <table id="table"></table>
+        <article>
+          <button id="play" onclick="play(this);">Iniciar Juego</button>
+          <button id="surrender" onclick="surrender();" disabled>
+            Finalizar Juego
+          </button>
+        </article>
+      </section>
+      <aside>
+        <p id="nroPartidas">Partida Nro.: 0</p>
+        <p id="intentos">INTENTOS: 0</p>
+        <p id="aciertos">ACIERTOS: 0</p>
+        <p id="msgFinal"></p>
+      </aside>
+    </main>
+    <footer><center>Laboratorio de programacion de lenguajes.</center></footer>
+  </body>
+</html>
